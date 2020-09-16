@@ -1,0 +1,75 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+ol li,
+ul li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+.about {
+   font-size: 16px;
+   color: #919191;
+}
+.about__title {
+   font-size: 25px;
+   color: darkslategray;
+}
+#subtitle {
+   color: #c24743;
+}
+.about_subtitle,
+.down__subtitile {
+   font-size: 20px;
+   color: #5c5c5c;
+}
+.about__text > p {
+   font-size: 18px;
+   color: #9a9a9a;
+}
+
+.about__block span,
+.about__text span {
+   font-size: 20px;
+   color: darkslategray;
+}
+li,
+span {
+   color: darkslategray;
+}
+.about__block a,
+.about__link {
+   color: #e0716d;
+}
+
+.down__subtitile + .down__block {
+   font-size: 18px;
+   color: #e0716d;
+}
+.about__text .main {
+   font-size: 18px;
+   color: #5c5c5c;
+}
